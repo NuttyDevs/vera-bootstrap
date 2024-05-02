@@ -17,7 +17,601 @@
     <title>Welcome To Vera</title>
   </head>
   <body>
-    <h2>Vera Website</h2>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="images/logo.svg" alt="" width="100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#solutions" class="nav-link">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#eetails" class="nav-link">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="#expertise" class="nav-link">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="https:facebook.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https:twitter.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- Header -->
+    <header class="header position-relative">
+      <img
+        src="images/vertical-decoration-left.svg"
+        alt=""
+        class="vertical-decoration position-absolute d-none d-md-block"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <h1 class="xl-text mt-5">
+              Software Solutions For
+              <sapn class="text-primary fw-bold replace-me"
+                >Small Besiness,Startups,Enterprise</sapn
+              >
+            </h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel
+              non, dolores velit beatae ipsum voluptas. Ea veniam mollitia
+              voluptatem.
+            </p>
+            <a href="#" class="btn btn-primary text-white">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end-->
+
+    <!-- Partners -->
+    <section class="partmers py-4 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <h6 class="text-center mb-4 text-uppercase">Our Partners</h6>
+            <div
+              class="d-flex justify-content-center align-itmes-center text-center"
+            >
+              <div>
+                <img src="images/partner-logo-1.png" alt="" class="mx-4" />
+              </div>
+
+              <div class="d-none d-sm-block">
+                <img src="images/partner-logo-2.png" alt="" class="mx-4" />
+              </div>
+              <div class="d-none d-md-block">
+                <img src="images/partner-logo-3.png" alt="" class="mx-4" />
+              </div>
+              <div class="d-none d-lg-block">
+                <img src="images/partner-logo-4.png" alt="" class="mx-4" />
+              </div>
+              <div class="d-none d-lg-block">
+                <img src="images/partner-logo-5.png" alt="" class="mx-4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Partners end-->
+
+    <!-- Form Area -->
+    <section id="contact" class="contact my-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Get More Information</h2>
+            <hr class="hr-heading" />
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              expedita assumenda consequatur accusantium laborum? Aperiam!
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized Solutions:</strong>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A hic
+                  quia sint qui impedit ducimus!
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized Solutions:</strong>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A hic
+                  quia sint qui impedit ducimus!
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <form>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control bg-secondary"
+                  placeholder="Enter name"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  class="form-control bg-secondary"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control bg-secondary"
+                  placeholder="Enter phone"
+                />
+              </div>
+              <div class="mb-4">
+                <select
+                  name="interested"
+                  id="interested"
+                  class="form-control bg-secondary"
+                >
+                  <option>interested In...</option>
+                  <option value="erp">ERP Solution</option>
+                  <option value="crm">CRM Solution</option>
+                  <option value="cms">CMS Solution</option>
+                  <option value="sfa">SFA Solution</option>
+                </select>
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" id="agree-check" />
+                <label for="agree-check" class="form-check-label"
+                  >I agree to the
+                  <a href="privacy.html">Privacy Policy</a></label
+                >
+              </div>
+              <div class="d-grid gap-2">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Form Area end-->
+
+    <!-- Solutions  -->
+    <section id="solutions" class="solutions my-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div
+            class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center"
+          >
+            <h5>
+              <span class="badge bg-primary rounded-0 text-uppercase"
+                >Solutions</span
+              >
+            </h5>
+            <h2 class="fw-bold">
+              Vera Provides Software Solutions For Business Acceleration
+            </h2>
+          </div>
+        </div>
+        <!-- Solutions Row 1 -->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-1.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ERP Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt tempore ipsam reprehenderit illum sequi eum itaque
+                  ipsa fugit fugiat nostrum provident totam fuga ex eius,
+                  voluptates inventore, delectus velit quos.
+                </p>
+                <div class="badge bg-primary p-2 text-uppercase">
+                  Management
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-2.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">CRM Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt tempore ipsam reprehenderit illum sequi eum itaque
+                  ipsa fugit fugiat nostrum provident totam fuga ex eius,
+                  voluptates inventore, delectus velit quos.
+                </p>
+                <div class="badge bg-dark p-2 text-uppercase">Marketing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solutions Row 2 -->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-3.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">SFA Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt tempore ipsam reprehenderit illum sequi eum itaque
+                  ipsa fugit fugiat nostrum provident totam fuga ex eius,
+                  voluptates inventore, delectus velit quos.
+                </p>
+                <div class="badge bg-primary p-2 text-uppercase">
+                  Management
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-4.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">WMS Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt tempore ipsam reprehenderit illum sequi eum itaque
+                  ipsa fugit fugiat nostrum provident totam fuga ex eius,
+                  voluptates inventore, delectus velit quos.
+                </p>
+                <div class="badge bg-dark p-2 text-uppercase">Marketing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Solutions end -->
+
+    <!-- Detail 1 -->
+
+    <section id="details" class="details my-5 position-relative">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-6">
+            <h2 class="fw-bold">Evaluation & Deployment</h2>
+            <hr class="hr-heading" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+              non necessitatibus iure facilis fuga enim inventore consequatur
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized solutions :</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quia, vero?
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized solutions :</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quia, vero?
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/details-1.jpg"
+              alt=""
+              class="img-fluid rounded-2"
+            />
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/vertical-decoration-left.svg"
+        alt=""
+        class="vertical-decoration position-absolute d-none d-md-block"
+      />
+    </section>
+    <!-- Detail 1 end-->
+
+    <!-- Detail 2 -->
+    <section class="details-2 my-5 position-relative">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-6">
+            <img
+              src="images/details-2.jpg"
+              alt=""
+              class="img-fluid rounded-2"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fw-bold">Maintenance & Support</h2>
+            <hr class="hr-heading" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+              non necessitatibus iure facilis fuga enim inventore consequatur
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized solutions :</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quia, vero?
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized solutions :</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quia, vero?
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/vertical-decoration-right.svg"
+        alt=""
+        class="vertical-decoration position-absolute d-none d-md-block"
+      />
+    </section>
+    <!-- Detail 2 end-->
+
+    <!--Expertise  -->
+    <section id="expertise" class="expertise bg-secondary py-5 my-6">
+      <div class="container">
+        <div class="row mb-6">
+          <div
+            class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center"
+          >
+            <h5>
+              <span class="badge bg-primary rounded-0 text-uppercase"
+                >Expertise</span
+              >
+            </h5>
+            <h2 class="fw-bold">Expertise Strong Points</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              eum voluptatum ullam iste recusandae exercitationem minus animi
+              voluptas culpa impedit aperiam quas temporibus, quam in, maxime
+              eaque blanditiis consequuntur.
+            </p>
+          </div>
+        </div>
+        <!-- Expertise Row 1 -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-lightbulb fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Plexible Services</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-desktop fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Great Design</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-wifi fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Easy To Use</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-cog fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Smart Options</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Expertise Row 2 -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-glasses fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Advanced Tech</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-graduation-cap fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Good Expertise</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-chart-bar fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Detailed Report</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-cloud fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Cloud Storage</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Expertise end -->
+
+    <!-- Video -->
+    <section class="video my-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <div class="position-relative">
+              <img src="images/video-preview.jpg" alt="" class="img-fluid" />
+              <a
+                href="#"
+                class="video-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#videoModal"
+                data-bs-src="https://www.youtube.com/embed/u72H_zZzkcw"
+              >
+                <span class="video-play-button">
+                  <span></span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row video-points px-6 mt-5">
+          <div class="col-lg-4">
+            <h4 class="fw-bold">10 years of experience</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus nihil vero ut doloremque repellat corporis rem
+              suscipit debitis harum corrupti.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Enduring Partnerships</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus nihil vero ut doloremque repellat corporis rem
+              suscipit debitis harum corrupti.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Skilled Capable Team</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus nihil vero ut doloremque repellat corporis rem
+              suscipit debitis harum corrupti.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Video Modal -->
+      <div class="video-modal">
+        <div id="videoModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modai-content">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/u72H_zZzkcw"
+                  frameborder="0"
+                  class="embed-responsive-item"
+                  id="video"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video Modal end -->
+    </section>
+    <!-- Video end -->
 
     <script src="js/replaceme.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
